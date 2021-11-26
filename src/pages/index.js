@@ -22,7 +22,7 @@ const IndexPage = () => (
 
     <h3>Gopher activity map</h3>
 
-    <p><a href="https://theundergroundnetwork.netlify.app">Go to map</a></p>
+    <p><a href="https://theundergroundnetwork-map.netlify.app">Go to map</a></p>
 
     <h3>Results</h3>
 
