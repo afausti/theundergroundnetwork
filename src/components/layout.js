@@ -39,7 +39,7 @@ const Layout = ({ children }) => {
             marginTop: `2rem`,
           }}
         >
-          © {new Date().getFullYear()}, Community Food Bank
+          © {new Date().getFullYear()}, The underground network
         </footer>
       </div>
     </>
