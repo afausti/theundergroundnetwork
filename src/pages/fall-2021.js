@@ -1,6 +1,8 @@
 import * as React from "react"
 import { Link } from "gatsby"
 
+import { StaticImage } from "gatsby-plugin-image"
+
 import Layout from "../components/layout"
 
 const SecondPage = () => (
@@ -13,6 +15,20 @@ const SecondPage = () => (
 
     <p>We are testing a sonic repeller that vibrates at 400Hz for 3 seconds every 20 seconds. Two sonic repllers were initially installed at the Jojobas neighborhood on November 23 on plots 21 and 24.</p>
 
+
+    <h3>Gopher activity</h3>
+
+    Gopher activity at the farm as of November 24.
+
+    <StaticImage
+      src="../images/gopher-nov24.png"
+      width={800}
+      quality={95}
+      formats={["auto", "webp", "avif"]}
+      alt="Gopher activity"
+      style={{ marginBottom: `1.45rem` }}
+    />
+    <br/>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )

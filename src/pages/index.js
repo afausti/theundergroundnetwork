@@ -19,13 +19,7 @@ const IndexPage = () => (
 
     <p>By collecting data throughout the seasons our goal is to test the effectiveness of these solutions.</p>
 
-
-    <h3>Gopher activity map</h3>
-
-    <p><a href="https://theundergroundnetwork-map.netlify.app">Go to map</a></p>
-
     <h3>Results</h3>
-
     <ul>
       <li>
         <p><Link to="/fall-2021/">Fall 2021</Link></p>
