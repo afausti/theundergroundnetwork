@@ -7,17 +7,18 @@ import Seo from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Home" />
+    <Seo title="The underground network" />
     <h3>Monitoring gopher activity at Las Milpitas community farm</h3>
 
-    <p>You can join us by observing and <a href="https://forms.gle/3cVEw7Dy2jsCbkiV8">collecting data about the plots using this form</a>. You can do that at any time and for as many plots as you like. The more data we collect the better!</p>
-    <h3>A note about traps</h3>
+    <p>Gophers are cute animals, but they have a destructive appetite.
+    In a matter of days, they can create a network of tunnels under the farm to collect food from our gardens.</p>
 
-    <p>Traps are very effective in killing gophers, but they are not effective in preventing gophers from making damage to our gardens. More gophers will come, and when you feel that you need to install a trap it is probably too late!</p>
+    <p>Traps are a reactive solution, they are effective in reducing the gopher population, but they are not effective in preventing them from making damage to our gardens. If there's food new gophers will come. </p>
 
-    <p>The underground network project aims to find preventive solutions that are more humane and sustainable.</p>
+    <p>The underground network aims to find preventive solutions and test their effectiveness by collecting data about the gopher's activity at Las Milpitas community farm.</p>
 
-    <p>By collecting data throughout the seasons our goal is to test the effectiveness of these solutions.</p>
+    <p>You can join us by observing our gardens and <a href="https://forms.gle/3cVEw7Dy2jsCbkiV8">filling this form</a> at any time. The more data we collect the better!</p>
+
 
     <h3>Results</h3>
     <ul>
@@ -28,6 +29,20 @@ const IndexPage = () => (
         <p>Spring 2022</p>
       </li>
     </ul>
+
+    <h3>Resources</h3>
+
+
+    <iframe height="281" width="500" src="https://www.youtube.com/embed/GVlyY5V6lAQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <ul>
+      <li>
+      <p><Link to="https://www.havahart.com/gopher-facts">Gopher facts</Link></p>
+      </li>
+      <li>
+        <p><Link to="https://smithspestmanagement.com/blog/post/how-to-get-rid-of-gophers-in-your-yard-garden/">How to get rid of gophers in your garden</Link></p>
+      </li>
+    </ul>
+
     <h3>Gallery</h3>
     <StaticImage
       src="../images/gopher2.jpg"
@@ -73,6 +88,10 @@ const IndexPage = () => (
       alt="Bok Choy"
       style={{ marginBottom: `1.45rem` }}
     />
+
+  <h3>Join us</h3>
+
+  Join the <Link to="https://groups.google.com/g/theundergroundnetworkcontact">The underground network</Link> and share your ideas.
 
   </Layout>
 )
